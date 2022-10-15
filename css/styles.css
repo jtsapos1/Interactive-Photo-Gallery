@@ -16,18 +16,18 @@ body {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    /*grid-template-columns: repeat(4, 1fr); /* auto-fit handles grid-item overflow*/
     /*grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); /* auto-fit handles grid-item overflow*/
-    /*grid-gap: 20px;
-    grid-auto-rows: minmax(150px, auto);*/
+    /*grid-auto-rows: minmax(150px, auto);*/
     
 }
 
 
-.card {
-    display: flex;
-    flex-direction: column;
-      }
 
       /* adjusts the grid for wider vieports using Media Queries*/
-
+      /*@media (min-width: 768px) {
+        width: 100%;
+        max-width: 100%;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); /* auto-fit handles grid-item overflow*/
+      } */
