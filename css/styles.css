@@ -22,7 +22,7 @@ body {
     /*grid-auto-rows: minmax(150px, auto);*/
 }
 
-#myInput {
+#search {
     background-position: 10px 12px;
     background-repeat: no-repeat;
     width: 55%;
