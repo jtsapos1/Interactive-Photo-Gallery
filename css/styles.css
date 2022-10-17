@@ -19,9 +19,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px 15px;
     /*grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); /* auto-fit handles grid-item overflow*/
-    /*grid-auto-rows: minmax(150px, auto);*/
-    
-    
+    /*grid-auto-rows: minmax(150px, auto);*/  
 }
 
 #search {
@@ -39,8 +37,6 @@ body {
         width: 100%;
         max-width: 100%;
         display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: repeat(4, 1fr);
         grid-gap: 20px;
         grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); /* auto-fit handles grid-item overflow*/
       
